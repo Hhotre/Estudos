@@ -1,2 +1,2 @@
-# Estudos
- Atividades do Curso em Vídeo
+# Activities 
+Activities from Curso em Vídeo
