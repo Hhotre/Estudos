@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Lists</title>
+</head>
+<body>
+    <h1>Type of Lists</h1>
+    <h2>Ordered Lists</h2>
+    <p>To make a list we use the tag's OL and LI, OL being the list and LI the content of that list</p>
+    <ol>
+        <li>To the left
+        <li>To the right
+        <li>Foward
+        <li>And beyond
+    </ol>
+    <p>The LI doenst need to be close with /li</p>
+    <p>If we want to change that type of list, from number to letter, we must use OL TYPE</p>
+    <ol type="A"> <!-- 1 A a I i -->
+        <li>To the left
+        <li>To the right
+        <li>Foward
+        <li>And beyond
+    </ol>
+    <p>And to change the begginer number or letter we must use start=, ol type="" start="".</p>
+    <ol type="I" start="5">
+        <li>To the left
+        <li>To the right
+        <li>Foward
+        <li>And beyond
+     </ol>
+
+     <h2>Unordered Lists</h2>
+     <p>We use UL to make a unordered list</p>
+     <ul>
+        <li>To the left
+        <li>To the right
+        <li>Foward
+        <li>And beyond
+    </ul>
+    <P>We can use others types too</P>
+    <ul type='square'> <!-- disc circle square-->
+        <li>To the left
+        <li>To the right
+        <li>Foward
+        <li>And beyond
+    </ul>
+    <ul type= 'circle'>
+        <li>To the left
+        <li>To the right
+        <li>Foward
+        <li>And beyond
+    </ul>
+    <H2>A List Inside a List</H2>
+    <p>We can open a OL and LI, and inside that LI we can open another OL or UL
+    </p>
+    <ol>
+        <li>Favorite Foods
+            <ul type='square'>
+                <li>Buttered popcorn
+                <li>Poutine
+                <li>Penang assam laksa
+            </ul>
+        <br>
+        <li>Favorite Drinks
+            <ul type='square'>
+                <li>Water
+                    <ul type='disc'>
+                        <li>Without gas
+                    </ul>
+                <li>Coffee
+                    <ul type='disc'>
+                        <li>With sugar
+                    </ul>
+                <li>Mai Tai
+            </ul>
+    </ol>
+    <h2>Definition List</h2>
+    <p>DL is used to make a list of defenitions, DT being de object and DD explaining that object, like a dictionary.</p>
+    <dl>
+        <dt>Mishpocha</dt>
+        <dd>an entire family network comprising relatives by blood and marriage and sometimes including close friends; clan.</dd>
+        <br>
+        <dt>Joao Vitor Junckes</dt>
+        <dd>An apprentice in the programming world</dd>
+    </dl>
+</body>
+</html>
