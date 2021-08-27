@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Images and Audio</title>
+</head>
+<body>
+    <h1>Dynamic Images</h1>
+    <h2>Inserting Dynamic Images</h2>
+    <p>Dynamic images that will adapt itself to whatever device the user is using.</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="images/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/media.png" type="image/png">
+        <img src="images/grande.png" alt="ImageG">
+    </picture>
+    <p>We can re-scale the image by using the tag PICTURE, and inside it, putting SOURCE, we start by aloquing the image with original size with IMG tag, that we want to show on our website, and from there on we start to decrease the image to be able to see on other dispositive, using <ins>SOURCER MEDIA TYPE</ins>.</p>
+    <p>Follow this example of this beatiful Porsche <br>I start with a 6k photo. You can increse and decrease you screen to see how the image adapts</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="images/p300.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="images/p500.png" type="image/png">
+        <source media="(max-width: 2050px)" srcset="images/p1200.jpg" type="image/jpg">
+        <source media="(max-width: 6050px)" srcset="images/p2500.jpg" type="image/jpg">
+        <img src="images/poriginal.jpg" alt="porsche">
+    </picture>
+
+    <h1>Using Audio</h1>
+    <p>Reproducing music in HTML5</p>
+    <audio src="audio/Stellar Wind - Unicorn Heads.mp3" controls loop></audio>
+    <p>To add a audio to the site we use AUDIO tag.<br>
+    We can make it more adaptable using SOURCE SRC inside the AUDIO tag.</p>
+    <audio preload="metadata" controls><!--MP3, WAV, OGG-->
+        <source src="audio/Stellar Wind - Unicorn Heads.mp3" type="audio/mpeg">
+        <source src="audio/Stellar Wind - Unicorn Heads.wav" type="audio/wav"><!--This type of audio is not recommended because it is heavly more big that the others-->
+        <source src="audio/Stellar Wind - Unicorn Heads.ogg" type="audio/ogg">
+    </audio>
+    <p>The site will try to load the first type of audio.</p> 
+</body>
+</html>
