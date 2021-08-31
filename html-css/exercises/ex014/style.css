@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(55, 61, 66);
+    color: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    color: tomato;
+    text-decoration: underline;
+}
