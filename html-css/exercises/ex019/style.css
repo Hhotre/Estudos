@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: aquamarine;
+    background-color: #4CE0DE;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
@@ -9,10 +9,24 @@ h1{
 }
 h1#principal{
     text-align: center;
+    background-color: ;
+    
 }
 h2{
 
 }
 p{
     text-align: justify;
+}
+
+.basico{
+    color: #458AED;
+}
+
+.intermediario{
+    color: #E0744F;
+}
+
+.avancado{
+    color: #943716;
 }
