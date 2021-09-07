@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:visited{
+    color: rgb(88, 88, 88);
+}
+a:hover{
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+a:active{
+    color: transparent;
+}
+a::before{
+    content: '▸';
+}
+ul{
+    list-style-type: none;
+}
+.backindex{
+    color: black;
+}
+.backindex:visited{
+    color: black;
+}
+.backindex::after{
+    content: '◯';
+}
+.backindex::before{
+    content: none;
+}
