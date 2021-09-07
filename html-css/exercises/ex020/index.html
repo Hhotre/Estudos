@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           }
+           
+        div{
+            display: inline-block;
+            background-color: antiquewhite;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+        .first:hover{
+            background-color: whitesmoke;
+        }
+        .second:hover{
+            background-color: rgba(0, 0, 0, 0.562);
+        }
+        .third:hover{
+            background-color: rgba(221, 160, 221, 0.685);
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+
+        }
+    </style>
+    <title>PseudoClasses</title>
+</head>
+<body>
+    <h1>Lorem ipsum</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero delectus ipsa laborum, ipsum, quam consequuntur deserunt consectetur laboriosam sequi ea quibusdam voluptatibus eaque quia illo hic maiores qui itaque veritatis.</p>
+    <div class="first">Arroz
+        <p>food</p>
+    </div>
+    <div class="second">Feijao
+        <p>food</p>
+    </div>
+    <div class="third">Sorvete
+        <p>food</p>
+    </div>
+</body>
+</html>
