@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            background-color: #BBDEF0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            background-color: #00A6A6;
+            margin: 15px 10px 1px 10px;
+            box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.37);
+            border-radius: 15px 15px;
+        }
+        h1{
+            text-align: center;
+            margin: 0;
+        }
+        nav{
+            text-align: center;
+            background-color: #F08700;
+            margin-top: 5px;
+        }
+        nav>a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            margin-right: 20px;
+        }    
+        nav>a:hover{
+            color: rgb(82, 93, 245);
+            text-decoration: underline;
+        }
+        nav>a::before{
+            content: '→';
+        }
+        main{
+            background-color: #00A6A6;
+        }
+        section{
+            margin-top: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        article{
+            background-color: #EFCA08;
+            border: 2px solid;
+            
+            margin: 2px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-radius: 10px 10px;
+            
+        }
+        article>h2{
+            margin-left: 3px;
+            text-align: center;
+        }
+        article>p{
+            margin-left: 3px;
+            text-indent: 10px;
+            text-align: center;
+        }
+        article>aside{
+            text-align: right;
+            margin-right: 10px;
+        }
+        footer{
+            background-color: #F49F0A;
+            padding: 1px;
+            text-align: center;
+        }
+
+    </style>
+    <title>Grouping Tags</title>
+</head>
+<body>
+    <header> <!--=================== CABECALHO ====================-->
+        <h1>Lorem Ipsum</h1>
+        <nav>
+            <a href="#">Lorem</a>
+            <a href="#">Ipsum</a>
+            <a href="#">Dolor</a>
+            <a href="#">Sit</a>
+        </nav>
+    </header>
+
+    <main> <!--==================== CONTEUDO ====================-->
+        <section>
+            <article id="article1">
+                <h2>Nostrum Eaque</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima tempore architecto voluptates totam maxime, molestias ipsa, ipsam eaque itaque, odit omnis quas ducimus autem beatae temporibus. Corrupti, esse voluptates?</p>
+                <aside>
+                    <p>Amet, Ipsam</p>
+                </aside>
+            </article>
+             <article id="article2">
+                <h2>Eaque Nostrum</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae minima tempore architecto voluptates totam maxime, molestias ipsa, ipsam eaque itaque, odit omnis quas ducimus autem beatae temporibus. Corrupti, esse voluptates?</p>
+                <aside>
+                    <p>-Ipsum, Lorem </p>
+                </aside>
+
+            </article>
+        </section>
+
+        <footer> <!--==================== RODAPE ====================-->
+            <p>Website desenvolved by Lorem Ipsum</p>
+        </footer>
+    </main>    
+</body>
+</html>
