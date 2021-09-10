@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @font-face {
     font-family:'android';
     src: url('../fontes/idroid.otf') format('opentype');
@@ -10,28 +10,79 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
     text-align: center;
 }
-
+/* ==========CABEÇALHO==========*/
 #cabecalho{
     text-shadow: 1px 2px 3px rgb(0 0 0 / 37%);
     color: white;
     margin: 0;
-    font-family: 'Bebas Neue', cursive;
-    background-image: linear-gradient(to top, #1A5C38 75%,#39CE7B);
+    
+    background-image: linear-gradient(to top, #1A5C38 80%,#39CE7B );
      background-attachment: fixed;
 
 }
 #cabecalho>h1{
+    font-family: 'Oswald', sans-serif;
     margin: 0;
+    padding: 25px;
+    font-size: 30px;
+    padding-top: 35px;
 }
 #cabecalho>p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
 
 }
 #cabecalho>nav{
+    text-align: left;
+    padding-bottom: 10px; 
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 8px;
+}
+a:hover{
+    background-color: #39CE7B;
+    padding: 11px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.288);
+}
+
+/*==========CONTEUDO==========*/
+main{
+background-color: #84E1AD;
+}
+#conteudo{
+max-width: 500px;
+margin: auto;
+background-color: white;
+border-radius: 0px 0px 5px 5px;
+box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.418);
+}
+article{
 
 }
-#cabecalho>a{
+article>h1{
+    margin: auto;
+    text-align: left;
+    text-indent: 15px;
+    font-family: 'android';
+    color: #207044;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+article>p{
+    text-align: justify;
+    max-width: 480px;
+    margin: auto;
+    text-indent: 15px;
+}
 
+footer>p{
+    margin: auto;
 }
