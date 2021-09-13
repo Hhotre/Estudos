@@ -8,12 +8,16 @@
     font-style: normal;
     */
 }
+
+/*========================================CSS=================================================================================*/
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     text-align: center;
 }
-/* ==========CABEÇALHO==========*/
+/* =============CABEÇALHO=============*/
 #cabecalho{
     text-shadow: 1px 2px 3px rgb(0 0 0 / 37%);
     color: white;
@@ -31,17 +35,14 @@ body{
     padding-top: 35px;
 }
 #cabecalho>p{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 40px;
-
+    max-width: 400px;
+    margin: auto;
 }
 #cabecalho>nav{
     text-align: left;
     padding-bottom: 10px; 
 }
-a{
+#cabecalho>nav>a{
     text-decoration: none;
     color: white;
     margin-left: 8px;
@@ -53,12 +54,12 @@ a:hover{
     color: rgba(0, 0, 0, 0.288);
 }
 
-/*==========CONTEUDO==========*/
+/*=============CONTEUDO=============*/
 main{
 background-color: #84E1AD;
 }
 #conteudo{
-max-width: 500px;
+max-width: 600px;
 margin: auto;
 background-color: white;
 border-radius: 0px 0px 5px 5px;
@@ -76,13 +77,59 @@ article>h1{
     padding-bottom: 10px;
     padding-top: 10px;
 }
+article>h2{
+    margin: auto;
+    text-align: left;
+    text-indent: 8px;
+    font-family: 'android';
+    color: #207044;
+    font-size: 18px;
+    max-width: 570px;
+    max-height: 580px;
+    background-image: linear-gradient(to left, white 40%,#39ce7c67 );
+}
 article>p{
     text-align: justify;
-    max-width: 480px;
+    max-width: 550px;
     margin: auto;
     text-indent: 15px;
+}
+.embed{
+    background-color: #207044;
+    position: relative;
+    max-width: 500px;
+    padding-bottom: 56.25%;
+    margin: auto;
+    text-align: left;
+    
+    
+}
+.embed iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.aprendermais{
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    max-width: 560px;
+    text-align: center;
+    margin: auto;
+}
+.aprendermais>h2{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #2fa765;
+    background-image: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    max-width: 560px;
+    padding: 10px;
 }
 
 footer>p{
     margin: auto;
+    
 }
