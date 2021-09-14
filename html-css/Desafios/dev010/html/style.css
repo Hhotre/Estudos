@@ -32,11 +32,12 @@ body{
     margin: 0;
     padding: 25px;
     font-size: 30px;
-    padding-top: 35px;
+    padding-top: 20px;
 }
 #cabecalho>p{
     max-width: 400px;
     margin: auto;
+    padding-bottom: 25px;
 }
 #cabecalho>nav{
     text-align: left;
@@ -49,8 +50,8 @@ body{
 }
 a:hover{
     background-color: #39CE7B;
-    padding: 11px;
-    border-radius: 3px;
+    padding: 8px;
+    border-radius: 2px;
     color: rgba(0, 0, 0, 0.288);
 }
 
@@ -74,8 +75,9 @@ article>h1{
     text-indent: 15px;
     font-family: 'android';
     color: #207044;
-    padding-bottom: 10px;
+
     padding-top: 10px;
+    font-size: 22px;
 }
 article>h2{
     margin: auto;
@@ -93,6 +95,7 @@ article>p{
     max-width: 550px;
     margin: auto;
     text-indent: 15px;
+    padding: 12px;
 }
 .embed{
     background-color: #207044;
@@ -110,14 +113,6 @@ article>p{
     height: 100%;
 
 }
-
-.aprendermais{
-    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.418);
-    border-radius: 10px;
-    max-width: 560px;
-    text-align: center;
-    margin: auto;
-}
 .aprendermais>h2{
     border-radius: 10px 10px 0px 0px;
     background-color: #2fa765;
@@ -128,8 +123,37 @@ article>p{
     max-width: 560px;
     padding: 10px;
 }
+.aprendermais{
+    box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    max-width: 560px;
+    text-align: center;
+    margin: auto;
+    background-color: #84e1acb7;
+    margin-top: 15px;
+}
+ul{
+    margin: auto;
+    padding: 0;
+    list-style-type: '✓';
+    max-width: 400px;
+    text-align: left;
+    padding-inline-start: 20px;
+
+}
+.listaum{
+    float: left;
+}
+.listadois{
+
+}
+p{
+    padding: 12px;
+}
 
 footer>p{
     margin: auto;
+    background-color:#207044 ;
+    padding: 10px;
     
 }
