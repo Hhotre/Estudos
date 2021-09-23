@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeros</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font: normal 20px arial;
+            background-color: black;
+            color: white;
+        }
+        section{
+            max-width: 1020px;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            background-color: teal;
+            border-radius: 3px;
+        }
+        h1{
+            padding-top: 10px;
+        }
+        div{
+            padding-bottom: 10px;
+            margin-top: 10px;
+        }
+        input{
+            max-width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Somando Valores</h1>
+         <input type="number" name="n1" id="n1"> +
+         <input type="number" name="n2" id="n2">
+         <input type="button" value="Somar" onclick="somar()">
+         <div id="resultado">
+             Resultado:
+         </div>
+    </section>
+    <script>
+         function somar(){
+             var n1 = window.document.querySelector('input#n1')
+             var n2 = window.document.querySelector('input#n2')
+             var resultado = window.document.querySelector('div#resultado')
+             var n3 = Number(n1.value)
+             var n4 = Number(n2.value)
+             var soma = n3 + n4
+             resultado.innerHTML = `Resultado: ` + soma
+         }
+     </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: slategrey;
+            font-size: 18px;
+        }
+        section{
+            max-width: 300px;
+            margin: auto;
+            width: 100%;
+            background-color: thistle;
+        }
+        h1{
+            padding: 15px;
+        }
+        p{
+            padding: 15px;
+            text-align: center;
+        }
+        div{
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit ame</p>
+        <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+        <div id="button">
+            Clique aqui.
+        </div>
+        <script>
+            /*
+            var div = window.document.getElementById("button")
+            div.style.background = "green"
+            div.innerText = "Clique"
+            */
+           var div = window.document.querySelector("div")
+           div.style.color = "blue"
+
+
+        </script>
+    </section>
+</body>
+</html>
