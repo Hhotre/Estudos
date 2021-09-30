@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Tabuada</title>
 </head>
 <body>
     <header>
-        <h1>Document</h1>
+        <h1>Qual tabuada?</h1>
     </header>
     <section>
-        <h2>Feijao com Salada</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quaerat praesentium, dolorum totam corporis expedita nam adipisci amet recusandae asperiores ab modi alias voluptates eligendi atque sed delectus consequuntur exercitationem.</p>
+        <div>
+            <p>Numero: 
+                <input type="number" name="num" id="number">
+                <input type="button" value="Gerar Tabuada" onclick="gerartabuada()">
+            </p>
+        </div>
+        <div>
+            <select name="tabuadas" id="seltabe" size="10">
+                <option> Digite um numero acima</option>
+            </select>
+        </div>
     </section>
     <footer>
         <p>&copy; Joao Junckes</p>
