@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Numeros</title>
+</head>
+<body>
+    <header>
+        <h1>Numeros</h1>
+    </header>
+    <section>
+        
+        <div> <!-- CAIXA DE NUMEROS E BOTAO  -->
+            <p>Numero(entre 1 e 100):
+
+                <!-- Caixa para adicionar numeros-->
+                <input type="number" name="formunum" id="formunum">
+
+                <!-- Botao para validar os numeros-->
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            
+             </p>
+        </div>
+        
+        <div> <!-- NUMEROS ADICIONADOS-->
+            
+            <!-- Caixa dos numeros adicionados-->
+            <select name="numeroslist" id="numeroslist" size="10"></select>
+            
+        </div>
+         
+        <br>
+       
+        <!-- BOTAO DO JS --> 
+        <input type="button" value="Finalizar" onclick="finalizar()">
+        <div id="resultado">
+
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; Joao Junckes</p>
+    </footer>
+    <script src="scripto.js"></script>
+</body>
+</html>
