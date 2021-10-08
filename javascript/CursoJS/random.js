@@ -1,4 +1,4 @@
-let num = 8
-num **=2
-
-console.log(num)
+function multiTable(number) {
+    let table =``
+    for(let i = 1)
+}
